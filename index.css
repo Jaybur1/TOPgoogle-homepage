@@ -1,0 +1,154 @@
+body {
+    font-family: arial, sans-serif;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    font-size: small;
+    overflow: hidden;
+}
+
+nav {
+    width: 99vw;
+    height: 10vh;
+}
+
+nav #nav-list-left {
+    display: flex;
+    text-align: left;
+    margin-top: 1em;
+}
+
+nav #nav-list-right {
+    margin-top: 1em;
+    display: flex;
+    position: absolute;
+    right: 0;
+    top: 0;
+    text-align: right;
+    margin-right: 1.6em;
+}
+
+nav .nav-li {
+    margin: 0.5em;
+    padding-left: 15px;
+}
+
+nav .nav-li:hover {
+    cursor: pointer;
+}
+
+nav #app-store-icon {
+    color: grey;
+}
+
+nav #notification-icon {
+    margin-top: -5px;
+    background: grey;
+    border: 5px solid grey;
+    border-radius: 50%;
+    font-size: 10px;
+    color: #fff;
+}
+
+nav #user {
+    margin-top: 1px;
+    padding-right: 1em;
+    padding-top: 5px;
+    height: 1.5em;
+    color: #fff;
+    background: #1E90FF;
+    border-radius: 2px;
+    font-weight: 700;
+}
+
+.main {
+    margin-top: 20vh;
+    padding-bottom: 30px;
+}
+
+form {
+    text-align: center;
+}
+
+form .input {
+    border: 1px solid #DCDCDC;
+    border-radius: 2px;
+    box-shadow: 1px 1px 1px #DCDCDC;
+    width: 45vw;
+    margin-left: 27vw;
+    height: 40px;
+}
+
+form .input:hover {
+    box-shadow: 3px 3px 3px #DCDCDC;
+}
+
+.input input {
+    margin-right: 2vw;
+    width: 85%;
+    height: 33px;
+    -webkit-appearance: none;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    margin-top: 2px;
+}
+
+.input #mic {
+    color: #191970;
+    font-size: 15px;
+}
+
+.input #mic:hover {
+    cursor: pointer;
+}
+
+form .button {
+    margin-top: 30px;
+}
+
+.button button {
+    margin: 15px;
+    width: 150px;
+    height: 30px;
+    border: none;
+    border-radius: 2px;
+    color: #666666;
+    font-weight: 600;
+}
+
+.button button:hover {
+    cursor: pointer;
+    box-shadow: 2px 2px 2px #CDCDCD;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    background: #F2F2F2;
+    height: 6vh;
+    color: #666666;
+}
+
+footer #footer-list-left {
+    display: flex;
+    margin-top: 2vh;
+}
+
+footer #footer-list-right {
+    display: flex;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 2vh;
+    margin-right: 25px;
+}
+
+.footer-li {
+    padding-left: 25px;
+}
+
+.footer-li:hover {
+    cursor: pointer;
+}
